@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;500&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* awal styling header */
+
+.container {
+  padding: 50px 150px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-left {
+  font-weight: 500;
+  float: left;
+}
+
+.btn-header {
+  background-color: #c8f031;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  float: left;
+  margin-left: 50px;
+}
+
+.respons-header {
+  clear: both;
+  display: inline-block;
+  max-width: 1170px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  margin-right: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* akhir styling header */
+
+/* awal styling main */
+
+main {
+  padding-top: 20px;
+  text-align: center;
+}
+
+main span {
+  color: #c8f031;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+}
+
+.btn-list {
+  margin-top: 30px;
+  font-size: 37px;
+}
+
+.btn-list a {
+  display: inline-block;
+  color: black;
+}
+
+.btn-list a:hover {
+  color: #c8f031;
+  transition: all 0.8s;
+}
+
+/* akhir styling main */
+
+/* awal about */
+
+.wrapper {
+  background-color: #000;
+  padding: 100px 100px;
+}
+
+.container-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.descript-about .title h2 {
+  margin-bottom: 20px;
+}
+.descript-about p {
+  color: #71716d;
+}
+
+.container-about .descript-about {
+  width: 660px;
+}
+
+.container-about .lang-tool {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
+}
+
+.lang-tool .lt-card {
+  width: 150px;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.lang-tool .lt-card:hover {
+  color: #c8f031;
+  transition: all 0.5s;
+}
+
+.lang-tool .lt-card i {
+  font-size: 38px;
+}
+
+/* akhir about */
+
+.projects {
+  margin-top: 40px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-img img {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.project img:hover {
+  box-shadow: 0 0 5px 0 #888888;
+  transition: all 0.5s;
+}
+
+.project .descript-one {
+  width: 580px;
+}
+
+.title {
+  color: #c8f031;
+}
+
+.subtitle {
+  color: #fff;
+}
+
+.gap-descript {
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.primary {
+  background-color: #000;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #c8f031;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.secondary {
+  border: 1px solid #000;
+  color: #000;
+}
+
+.secondary:hover {
+  background-color: #c8f031;
+  transition: all 0.5s;
+}
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.fa-heart {
+  color: red;
+}

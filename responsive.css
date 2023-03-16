@@ -1,0 +1,76 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .descript-about p {
+    text-align: justify;
+  }
+
+  .container {
+    padding: 20px 100px;
+  }
+}
+
+/* awal responsive mobile */
+@media all and (max-width: 670px) {
+  /* awal responsive header */
+
+  .header-right {
+    display: none;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .respons-header {
+    display: flex;
+  }
+
+  /* akhir responsive header */
+
+  /* awal responsive main */
+  main {
+    padding: 0 20px;
+  }
+
+  main .container .about {
+    font-size: 12px;
+  }
+
+  main .container .about p {
+    font-size: 14px;
+  }
+
+  .project-img img {
+    width: 100%;
+  }
+
+  .container .projects .descript-one {
+    margin-top: 20px;
+  }
+
+  .wrapper {
+    padding: 30px;
+  }
+
+  .descript-about .title {
+    font-size: 12px;
+  }
+
+  .descript-about p {
+    text-align: justify;
+  }
+
+  .container-about .lang-tool {
+    margin-top: 20px;
+  }
+  /* akhir responsive main */
+}
+
+/* akhir responsive mobile */
+
+/* Layar 16 inch ke atas*/
+@media all and (min-width: 1600px) {
+  .container {
+    padding: 50px 300px;
+  }
+}
