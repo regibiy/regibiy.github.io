@@ -44,7 +44,7 @@ html {
   clear: both;
   display: inline-block;
   max-width: 1170px;
-  padding: 15px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
 }
@@ -87,6 +87,7 @@ main span {
 .btn-list a {
   display: inline-block;
   color: black;
+  margin-right: 10px;
 }
 
 .btn-list a:hover {
