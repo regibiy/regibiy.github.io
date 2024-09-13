@@ -1,13 +1,13 @@
 //swall alert
 const submitBtn = document.querySelector("#submit");
 submitBtn.addEventListener("click", () => {
-  // Swal.fire({
-  //   icon: "warning",
-  //   title: "Oops...",
-  //   text: "This feature is currently unavailable!",
-  //   footer: 'but you still can contact me via <span class="text-primary font-bold">social media.</span>',
-  // });
-  alert("uups... fitur belum tersedia nih, kontak lewat media yaaa!");
+  Swal.fire({
+    icon: "warning",
+    title: "uups...",
+    text: "fitur belum tersedia saat ini.",
+    footer: 'tapi kamu tetap bisa kontak saya melalui <span class="text-primary font-bold">media sosial!</span>',
+  });
+  // alert("uups... fitur belum tersedia nih, kontak lewat media yaaa!");
 });
 // hamburger
 const hamburger = document.querySelector("#hamburger");
