@@ -1,12 +1,13 @@
 //swall alert
 const submitBtn = document.querySelector("#submit");
 submitBtn.addEventListener("click", () => {
-  Swal.fire({
-    icon: "error",
-    title: "Oops...",
-    text: "This feature is currently unavailable!",
-    footer: 'but you still can contact me via <span class="text-primary font-bold">social media.</span>',
-  });
+  // Swal.fire({
+  //   icon: "warning",
+  //   title: "Oops...",
+  //   text: "This feature is currently unavailable!",
+  //   footer: 'but you still can contact me via <span class="text-primary font-bold">social media.</span>',
+  // });
+  alert("uups... fitur belum tersedia nih, kontak lewat media yaaa!");
 });
 // hamburger
 const hamburger = document.querySelector("#hamburger");
